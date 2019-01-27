@@ -13,4 +13,5 @@ app.use(express.static(path.resolve(__dirname, "../client/dist")));
 
 app.listen(1128, () => {
   console.log("listening on port 1128!");
+  console.log("Something");
 });

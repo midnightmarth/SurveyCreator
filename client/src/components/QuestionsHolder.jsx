@@ -4,8 +4,8 @@ import Question from "./Question.jsx";
 import questions from "../../../SampleData/questions.json";
 
 class QuestionsHolder extends React.Component {
-  constructor() {
-    super();
+  func() {
+    console.log("func called");
   }
 
   render() {

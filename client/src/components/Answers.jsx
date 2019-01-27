@@ -10,7 +10,7 @@ class Answers extends React.Component {
       <div>
         {this.props.answers.map(data => {
           return (
-            <div key={data.key}>
+            <div>
               <input type="radio" name={uniqueID} />
               <label>{data}</label>
             </div>
