@@ -12,7 +12,7 @@ class QuestionsHolder extends React.Component {
     return (
       <div>
         {questions.questions.map(data => {
-          return <Question data={data} />;
+          return <Question data={data} key={data.key} />;
         })}
       </div>
     );

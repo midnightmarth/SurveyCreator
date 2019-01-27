@@ -5,13 +5,14 @@ class Answers extends React.Component {
     super(props);
   }
   render() {
+    const uniqueID = Math.random();
     return (
       <div>
         {this.props.answers.map(data => {
           return (
-            <div>
-              <input type="radio" />
-              {data}
+            <div key={data.key}>
+              <input type="radio" name={uniqueID} />
+              <label>{data}</label>
             </div>
           );
         })}

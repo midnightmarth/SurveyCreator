@@ -9,8 +9,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        Survey!;
-        <QuestionHolder />;
+        Survey!
+        <QuestionHolder />
+        <button type="submit">Submit</button>
       </div>
     );
   }
