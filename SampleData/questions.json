@@ -1,24 +1,20 @@
 {
   "questions": [
     {
-      "What is your favorite Something?": {
-        "answers": ["yeah", "No", "Kick", "Punch"]
-      }
+      "question": "What is your favorite Something?",
+      "answers": ["yeah", "No", "Kick", "Punch"]
     },
     {
-      "What is your favorite Nothing?": {
-        "answers": ["lmao", "Idk", "Lol", "Nothing"]
-      }
+      "question": "What is your favorite Something?",
+      "answers": ["yeah", "No", "Kick", "Punch"]
     },
     {
-      "What is your favorite almost Something?": {
-        "answers": ["Names", "Family names", "Skidoodle", "I really dont know"]
-      }
+      "question": "What is your favorite Something?",
+      "answers": ["yeah", "No", "Kick", "Punch"]
     },
     {
-      "What is your favorite almost Nothing?": {
-        "answers": ["28-12", "13-4", "5-90", "Decline to answer"]
-      }
+      "question": "What is your favorite Something?",
+      "answers": ["yeah", "No", "Kick", "Punch"]
     }
   ]
 }
