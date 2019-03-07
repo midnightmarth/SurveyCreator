@@ -1,2 +1,7 @@
 node_modules
 bundle.js
+package-lock.json
+config.js
+taker.bundle.js
+creater.bundle.js
+.gitignore
